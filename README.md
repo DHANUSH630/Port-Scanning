@@ -1,11 +1,25 @@
 # 🔍 Advanced Port Scanner 2.0
 
-A high-performance, multi-threaded network scanner script with a modern dark Tkinter GUI, terminal CLI support, and an easy one-click Windows `run.bat` launcher menu.
+A high-performance, multi-threaded network scanner script featuring a modern dark Tkinter GUI, terminal CLI support, response latency tracking, service banner detection, and an easy one-click Windows `run.bat` launcher menu.
 
 ![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 ![Launcher](https://img.shields.io/badge/Launcher-run.bat-success.svg)
+
+---
+
+## 📸 Scan Results & Application Output
+
+### 🎨 Graphical User Interface (GUI) Scan Results
+The application features a sleek dark UI with real-time progress indicators, response latency metrics, colored status badges, and service detection.
+
+![GUI Port Scan Results](assets/gui_scan_results.jpg)
+
+### 🖥️ Command-Line Interface (CLI) Scan Results
+Terminal output displaying target specifications, connection latency (ms), identified services, and summary results.
+
+![CLI Port Scan Results](assets/cli_scan_results.jpg)
 
 ---
 
@@ -80,7 +94,9 @@ Port-Scanning/
 ├── index.py                    # Main script entry point (CLI & GUI)
 ├── port_scanner.py             # Port scanner core engine & Tkinter GUI
 ├── README.md                   # Complete documentation
-└── assets/                     # Screenshots & visual assets
+└── assets/                     # Scan result screenshots & visual assets
+    ├── gui_scan_results.jpg    # GUI Scan Results screenshot
+    └── cli_scan_results.jpg    # CLI Scan Results screenshot
 ```
 
 ---
